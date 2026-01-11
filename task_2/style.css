@@ -55,6 +55,7 @@ nav a{
 }
 
 .banner {
+    font-size: 20px;
     text-align: center;
     padding: 130px;
     color: #fff;
@@ -64,7 +65,7 @@ nav a{
     display: inline-block;
     margin: 20px auto;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     color: #262626;
@@ -87,6 +88,19 @@ nav a{
 }
 
 
+.intro1 h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 100px;
+    padding: 275px;
+}
+
+.intro2 h2 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
 .p-2 {
     padding: var(--space-2);
 }
@@ -102,7 +116,6 @@ nav a{
     padding: 0;
 }
 
-user agent stylesheet
 section {
     display: block;
     unicode-bidi: isolate;
