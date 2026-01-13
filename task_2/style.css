@@ -75,6 +75,24 @@ nav a{
 }
 
 
+/*in the index*/
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
 @media (max-width: 600px) {
     .banner{
         padding: 30px;  
@@ -125,8 +143,70 @@ nav a{
 
 .image_S {
    font-size:30px;
+   font-family: Roboto, Arial, sans-serif;
 }
 
 
+footer {
+    background-color: #000043;
+}
 
+/*.website-footer .summary {
+    width: 33%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}*/
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 65px;
+   background-color: #000043;
+   color: white;
+   text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.footer .socialIcons a i{
+   color: #fff;
+   font-size: 30px;
+   text-decoration: none;
+   margin: 10px;
+   margin-bottom: 25px;
+  
+}
+
+.footerNav {
+    margin-right: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+   color: #fff;
+   margin: 30px;
+   text-decoration: none;
+   font-size: 1.rem;
+   
+}
+
+.footer .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
 
