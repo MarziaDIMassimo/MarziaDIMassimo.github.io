@@ -116,10 +116,17 @@ nav a{
     padding: 0;
 }
 
-section {
+
+/*section {
     display: block;
     unicode-bidi: isolate;
+}*/
+
+
+.image_S {
+   font-size:30px;
 }
+
 
 
 
