@@ -28,8 +28,8 @@
 
 /* CSS Reset */
 * {
-    box-sizing: border-box;
     /* will force elements to scale from the border instead */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
