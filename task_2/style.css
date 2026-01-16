@@ -96,6 +96,8 @@ nav a{
   display: block;
 }
 
+
+
 .dropdown-content a:hover {background-color: #142ea0;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -271,7 +273,12 @@ figure{
 .container:hover .text a{
    color: black; 
 }
+
 /*profile ish*/
+
+.container  .mosta{
+    font-size: 50px;
+}
 
 
 .containerG{
@@ -341,6 +348,46 @@ display: block;
   color: black;
 }
 
+/*levels dropdown*/
+.lvl {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.courses {
+  position: relative;
+}
+
+.dropdown-courses {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-courses a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-courses a:hover {
+  background-color: #f1f1f1;
+}
+
+.courses:hover .dropdown-courses{
+  display: block;
+}
+
+.courses:hover .lvl {
+  background-color: #ffa05b;
+}
 
 
 /*shadow box courses*/
@@ -405,52 +452,66 @@ display: block;
   color: black;
 }
 
+
+.lvl{
+  border: none;
+  color: white;
+  background-color: #a02514;
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 30px;
+  padding: 16px 100px;
+  font-family: Blacker Sans Pro;
+  border-radius: 15px;
+}
+
+.lvl:hover {
+  background-color: #ffa05b;
+  color: black;
+}
+
+ h1 {
+    text-align: center;
+}
+
 /*footer*/
 
 footer {
-    background-color: #000043;
+     background-color: #000043;
 }
-
-.footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   padding: 30px;
-   background-color: #000043;
-   color: white;
-   text-align: center;
-    display: block;
-    unicode-bidi: isolate;
-
+ .footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     padding: 30px;
+     background-color: #000043;
+     color: white;
+     text-align: center;
+     display: block;
+     unicode-bidi: isolate;
 }
-
-.footer .socialIcons a i{
-   color: #fff;
-   font-size: 30px;
-   text-decoration: none;
-   margin: 10px;
-   margin-bottom: 25px;
-  
+ .footer .socialIcons a i{
+     color: #fff;
+     font-size: 30px;
+     text-decoration: none;
+     margin: 10px;
+     margin-bottom: 25px;
 }
-
-
-.footerNav ul{
-    display: flex;
-    justify-content: center;
+ .footerNav ul{
+     display: flex;
+     justify-content: center;
 }
-
-.footerNav ul li a{
-   color: #fff;
-   margin: 30px;
-   text-decoration: none;
-   font-size: 1.rem;
+ .footerNav ul li a{
+     color: #fff;
+     margin: 30px;
+     text-decoration: none;
+     font-size: 1.rem;
 }
-
-.footer .copyright {
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-    
+ .footer .copyright {
+     width: 100%;
+     text-align: center;
+     margin-top: 100px;
 }
 
 /*contact form*/
